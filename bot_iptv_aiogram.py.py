@@ -23,7 +23,7 @@ from aiogram.client.default import DefaultBotProperties
 from aiogram.exceptions import TelegramBadRequest
 
 # ===================== CONFIG - edite antes de rodar =====================
-BOT_TOKEN = "8269520257:AAHlSjUjstyFDf7sMSxXvkxCQ1_MogHvRrY"  # (já estava no seu código)
+BOT_TOKEN = ""  # (já estava no seu código)
 DB_PATH = "bot_iptv.db"
 
 # Admins: por username (sem @) e/ou por id (numérico)
@@ -961,3 +961,4 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
