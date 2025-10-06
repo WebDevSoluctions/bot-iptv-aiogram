@@ -28,7 +28,7 @@ DB_PATH = "bot_iptv.db"
 
 # Admins: por username (sem @) e/ou por id (numérico)
 ADMINS: List[str] = ["Hidalgo73", "ativabott"]
-ADMIN_IDS: List[int] = []  # ex: [12345678]
+ADMINS: List[str] = ["ativabott"]
 
 PIX_COPIA_E_COLA = (
     "00020101021126580014br.gov.bcb.pix01363c22457a-3a09-44fb-adc5-34f11cd07da35204000053039865802BR5919"
@@ -961,4 +961,5 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
 
